@@ -4,7 +4,8 @@ import com.cts.grizzlystore.bean.grizzlyStore;
 
 public interface AddProductDAO {
 	
-	private String insertProduct(grizzlyStore gs)
+	public String insertProduct(grizzlyStore gs);
+	
 
 
 }
